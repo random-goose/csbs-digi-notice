@@ -1,3 +1,5 @@
+import express from 'express';
+
 function uploadImage() {
     const formData = new FormData(document.getElementById('uploadForm'));
 
